@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+SC&display=swap');
+
+.card {
+    width: 15vw;
+    background-color: #ffd401;
+    padding: 1rem;
+    margin: 1rem;
+    border: 2px solid #21bacc;
+    text-align: center;
+    font-family: 'Alegreya SC', serif;
+}
+
+.card button {
+    cursor: pointer;
+    margin-top: 10px;
+    border: none;
+    padding: 8px;
+    border-radius: 2px;
+    background-color: #21bacc;
+    font-family: 'Alegreya SC', serif;
+}
+
+.card button:hover {
+    background-color: #e10101;
+    transition: 0.3s;
+}
+
+.card:hover {
+    background-color: rgb(255, 255, 117);
+}
+
+.category {
+    font-variant: small-caps;
+}
+
+.preco {
+    font-size: 1rem;
+}
+
+.preco::before {
+    content: "R$";
+}

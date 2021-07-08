@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+SC&display=swap');
+
+html,
+body,
+figure,
+div,
+input,
+textarea,
+a,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul {
+  margin: 0;
+  padding: 0;
+  border: none;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  color: black;
+}
+
+.App {
+  background-color: #ffd401;
+  height: 110vh;
+}
+
+.input {
+  text-align: center;
+}
+
+.input input {
+  padding: 0.5rem;
+  outline: none;
+  background-color: rgb(255, 255, 117);
+}
+
+.input button {
+  padding: 0.5rem;
+  border: none;
+  cursor: pointer;
+  background-color: #21bacc;
+}
+
+.container {
+  max-width: 75%;
+  margin: auto;
+}
+
+.menu-container {
+  max-width: 75%;
+  margin: auto;
+}
+
+.market {
+  position: absolute;
+  bottom: 1rem;
+  left: 70rem;
+  width: 10%;
+}
+
+.market-item {
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  text-align: center;
+}
+
+.market-item::after, .market-item::before {
+  content: "";
+  width: 7rem;
+  height: 0.25rem;
+  color: black;
+  display: block;
+  background: black;
+}
+
+.price {
+  position: absolute;
+  top: 5rem;
+  left: 5rem;
+  background-color: rgb(255, 255, 117);
+  padding: 1rem;
+  border: 2px solid black;
+  font-family: 'Alegreya SC', serif;
+}

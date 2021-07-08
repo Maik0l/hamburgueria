@@ -1,0 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+SC&display=swap');
+
+header {
+    text-align: center;
+    padding: 1.5rem;
+    font-family: 'Alegreya SC', serif;
+}
