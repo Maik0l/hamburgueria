@@ -3,3 +3,11 @@
     flex-wrap: wrap;
     max-width: 70vw;
 }
+
+@media only screen and (min-width: 768px) {
+    .card__container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}

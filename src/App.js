@@ -52,10 +52,10 @@ function App() {
           {(filteredProducts.length === 0) ? (<MenuContainer products={products} handleClick={handleClick}/>) : 
           (<MenuContainer products={filteredProducts} handleClick={handleClick}/>)}
         </div>
+      </div>
         <div className="price">
         Preço total: {cartTotal}
         </div>
-      </div>
       <div className="market">
         {currentSale.map((item, i) => <div className="market-item" key={i}>
           <div>{item.name}</div>
